@@ -19,7 +19,12 @@ Here, we are going to use `@sveltejs/adapter-cloudflare` to output a static site
 ---
 
 ##### wrangler.toml
+
 > ```toml
-name = "sveltekit-markdown-rdmusic"
-pages_build_output_dir = ".svelte-kit/cloudflare"
+> name = "sveltekit-markdown-rdmusic"
+> pages_build_output_dir = ".svelte-kit/cloudflare"
+> ```
+
+```
+
 ```
