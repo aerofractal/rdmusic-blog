@@ -1,6 +1,6 @@
 ---
-title: Dev Second post
-description: Dev Second post.
+title: Second post
+description: Second post.
 date: '2024-10-10'
 categories:
   - sveltekit
