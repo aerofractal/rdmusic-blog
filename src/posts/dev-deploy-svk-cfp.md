@@ -34,6 +34,7 @@ You can simply run:<p>
 ```bash
 wrangler deploy
 ```
+
 or<p>
 
 ```bash
