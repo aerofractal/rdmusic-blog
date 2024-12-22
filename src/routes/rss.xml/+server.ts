@@ -16,7 +16,9 @@ export async function GET({ fetch }) {
                 <description>${config.description}</description>
                 <link>${config.url}</link>
                 <atom:link href="${config.url}/rss.xml" rel="self" type="application/xml" />
-                ${posts.map((post) => `
+                ${posts
+									.map(
+										(post) => `
                             <item>
                                 <title>${post.title}</title>
                                 <description>${post.description}</description>
@@ -24,7 +26,9 @@ export async function GET({ fetch }) {
                                 <guid isPermaLink="true">${config.url}/${post.slug}</guid>
                                 <pubDate>${new Date(post.date).toUTCString()}</pubDate>
                             </item>
-                        `).join('')}
+                        `
+									)
+									.join('')}
             </channel>
         </rss>
     `.trim()
