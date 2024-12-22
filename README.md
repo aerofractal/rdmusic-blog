@@ -1,5 +1,7 @@
 # rdmusic-blog
 
+Now with a dev branch!
+
 A simple blog, with pre-rendered markdown posts using MDSvex, and a convenient server side API for passing post data, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
 You can view the finished production version of this site at https://blog.rdmusic.net
