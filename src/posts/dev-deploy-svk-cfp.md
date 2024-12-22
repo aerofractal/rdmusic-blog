@@ -5,7 +5,7 @@ date: '2024-10-20'
 categories:
   - sveltekit
   - svelte
-published: false
+published: true
 ---
 
 ## Configuring SvelteKit to use the Cloudflare adapter.
