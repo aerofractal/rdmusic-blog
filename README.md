@@ -15,7 +15,7 @@ npm create svelte@latest my-app
 ``` -->
 
 ## Developing
-You must use `bun` to run this project. The development, build, and preview commands are all written to run vite on top of `bun`'s engine.
+You must use `bun` to run this project. The development, build, and preview commands are all written to run `vite` on top of `bun`'s engine.
 
 Once you've created a project and installed dependencies with `bun install`, start a development server:
 
