@@ -5,7 +5,7 @@ date: '2024-10-10'
 categories:
   - sveltekit
   - svelte
-published: false
+published: true
 ---
 
 <script>
