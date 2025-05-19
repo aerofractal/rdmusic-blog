@@ -10,6 +10,4 @@ published: true
 
 ## building...
 
-test
-
 🔨
