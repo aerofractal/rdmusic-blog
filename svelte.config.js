@@ -7,12 +7,18 @@ import remarkUnwrapImages from 'remark-unwrap-images'
 import remarkToc from 'remark-toc'
 import rehypeSlug from 'rehype-slug'
 
+import { join, dirname } from 'path'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+const path_to_layout = join(__dirname, './src/mdsvex.svelte')
+
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
-	layout: {
-		_: './src/mdsvex.svelte'
-	},
+	layout: path_to_layout,
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
 			const highlighter = await shiki.getHighlighter({ theme: 'poimandres' })
