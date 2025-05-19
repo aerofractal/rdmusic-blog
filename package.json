@@ -6,7 +6,7 @@
 		"dev": "bunx --bun vite dev",
 		"build": "bunx --bun vite build",
 		"preview": "bunx --bun vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check": "bunx --bun svelte-kit sync && bunx --bun svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check ./src && eslint ./src",
 		"format": "prettier --write ./src",
