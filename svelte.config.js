@@ -39,6 +39,9 @@ const config = {
 				environment: undefined,
 				experimentalJsonConfig: false,
 				persist: false
+			},
+			output: {
+				bundleStrategy: 'single'
 			}
 		})
 	}
