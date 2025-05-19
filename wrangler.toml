@@ -4,5 +4,5 @@ compatibility_flags = [ "nodejs_compat" ]
 compatibility_date = "2025-05-05"
 
 [vars]
-NODE_VERSION = "18.18.0"
 BUN_VERSION = "1.1.27"
+SKIP_DEPENDENCY_INSTALL = "true"
