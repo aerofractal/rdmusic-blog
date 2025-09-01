@@ -40,3 +40,5 @@ or<p>
 ```bash
 wrangler pages deploy
 ```
+
+wee
