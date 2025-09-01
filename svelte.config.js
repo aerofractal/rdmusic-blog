@@ -7,11 +7,13 @@ import remarkUnwrapImages from 'remark-unwrap-images'
 import remarkToc from 'remark-toc'
 import rehypeSlug from 'rehype-slug'
 
+import path from 'path'
+
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
 	layout: {
-		_: './src/mdsvex.svelte'
+		_: path.resolve('./src/mdsvex.svelte')
 	},
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
